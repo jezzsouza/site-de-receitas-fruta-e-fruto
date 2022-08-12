@@ -1,0 +1,22 @@
+.pessoa {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 0) {
+    .pessoa {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pessoa {
+        margin-bottom: 0;
+    }
+}
+
+
+
+/*Perceba que estamos utilizando uma <div> para essas imagens, ao invés de uma tag <img> como fizemos na seção de receitas ou no banner. 
+Isso ocorre pois essas são imagens ilustrativas, servindo apenas para estilização, 
+e por isso não devem constar no HTML. Começaremos então a estilização.*/

@@ -1,0 +1,19 @@
+.pessoas {        /*arquivo pai de pessoa*/
+    display: flex;
+    justify-content: space-around;  /*justify-content = justificar-conteúdo; space-around = espaço ao redor;
+                                    para que os elementos sejam justificados de acordo com o espaço na página, 
+                                    além de um padding: 3rem para incluirmos um espaçamento em relação à descrição.*/
+    padding-top: 3rem;
+}
+
+@media screen and (min-width: 0) {
+    .pessoas {
+        flex-direction: column; /*um embaixo do outro*/
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pessoas {
+        flex-direction: row;  /*um do lado do outro*/
+    }
+}

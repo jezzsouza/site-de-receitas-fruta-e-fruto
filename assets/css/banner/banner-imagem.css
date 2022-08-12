@@ -1,0 +1,21 @@
+.banner__imagem {
+    background: url(../../img/banner.jpg) no-repeat center / cover; /*ATALHO*/
+    /*height: calc(100vh - 72px);  passou para baixo*/
+    width: 100%;
+}
+
+/*onde vh significa viewport height, que é o tamanho da tela do navegador.
+Queremos que o preenchimento vertical desconsidere o tamanho do cabeçalho, 
+algo que pode ser feito usando a função calc() do CSS (que permite fazer cálculos) e subtraindo 72px do valor 100vh.*/
+
+@media screen and (min-width: 0) {
+    .banner__imagem {
+        height: calc(100vh - 51px); /*o cabeçalho ficou um pouco menor*/
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__imagem {
+        height: calc(100vh - 72px);
+    }
+}

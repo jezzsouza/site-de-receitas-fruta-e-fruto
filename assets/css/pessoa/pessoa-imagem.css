@@ -1,0 +1,24 @@
+.pessoa__imagem {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%; /*para a img ficar redonda*/
+    height: 300px;
+    margin: 0 auto;
+    width: 300px;   
+}
+
+.pessoa__imagem--roberta {
+    background-image: url('../../img/pessoas/roberta.jpg'); /*Como as imagens estão na pasta "img" do projeto, 
+                                                          precisaremos usar ../../assets/img/pessoas para acessá-la, 
+                                                          onde cada ../ serve para subir um nível de pasta.*/
+}
+
+.pessoa__imagem--marcela {
+    background-image: url('../../img/pessoas/marcela.jpg');
+
+}
+
+.pessoa__imagem--andreia {
+    background-image: url('../../img/pessoas/andreia.jpg');
+}

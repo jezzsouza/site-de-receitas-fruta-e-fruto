@@ -1,0 +1,4 @@
+.banner {
+    position: relative; /*usamos o parâmetro position: relative na classe pai, banner, para que seus filhos sejam posicionados de maneira relativa a ele.*/
+}
+
